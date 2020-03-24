@@ -10,7 +10,8 @@ class App extends React.Component {
         path : window.location.pathname,
         datasource: [],
         json_files:null,
-        dataList: []
+        dataList: [],
+        file_names: []
     }
 }
 
@@ -115,6 +116,16 @@ handleHitDrop  = (arr) => {
 
 
 readFilesNew = (files) => {
+  
+  let file_names = []
+  for(let i of files){
+    file_names.push(i["name"])
+  }
+
+  this.setState({
+    file_names: file_names
+  })
+
   let result = [];
   let count = 0;
   for (let i of files) {
@@ -179,19 +190,35 @@ showDataSource = () => {
     }
   }
 
-  console.log(new_jsons)
+  let file_names = this.state.file_names;
+  for(let i=0;i<new_jsons.length; i++){
+    let a = document.createElement('a');
+    a.href = "data:application/octet-stream,"+encodeURIComponent(JSON.stringify(new_jsons[i]));
+    a.download = "new_"+file_names[i]
+    a.click();
+  }
 
-  
-  // Write data in 'Output.txt' . 
-  fs.writeFile('Output.txt', new_jsons, (err) => { 
-        
-      // In case of a error throw err. 
-      if (err) throw err; 
-  })
 
 };
 
 
+
+
+  makeTextFile = (text) => {
+    let textFile = null
+    var data = new Blob([text], {type: 'text/plain'});
+
+    // If we are replacing a previously generated file we need to
+    // manually revoke the object URL to avoid memory leaks.
+    if (textFile !== null) {
+      window.URL.revokeObjectURL(textFile);
+    }
+
+    textFile = window.URL.createObjectURL(data);
+
+    // returns a URL you can use as a href
+    return textFile;
+  };
 
   render(){
     return (
