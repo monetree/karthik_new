@@ -1,0 +1,483 @@
+{
+	"sessions": [
+		{
+			"badgeNumber": 11222,
+			"name": "greejith",
+			"dateTime": "2020.02.26-21.05.28",
+			"model": "D10",
+			"hit_drop":5,
+			"mode": "Certification",
+			"formFactor": "MT",
+			"optionalCards": [
+				"25HDD",
+				"DVD",
+				"HDMI",
+				"InternalAntenna"
+			],
+			"repetitions": [ 1, 0, 0 ],
+			"timing": [
+				{
+					"zoneName": "Zone1",
+					"zoneInfo": [
+						{
+							"stepId": 19,
+							"stepName": "Pick Place Tray",
+							"timeInfo": [
+								"3.2"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 20,
+							"stepName": "Rotate CPU",
+							"timeInfo": [
+								"1.6"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 21,
+							"stepName": "Pick TorqueWrench",
+							"timeInfo": [
+								"0.3"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 22,
+							"stepName": "Activate TorqueWrench",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 23,
+							"stepName": "Rotate Screws",
+							"timeInfo": [
+								"1.1"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 24,
+							"stepName": "Rotate CPU",
+							"timeInfo": [
+								"1.6"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 25,
+							"stepName": "Slide ChassisDoor",
+							"timeInfo": [
+								"1.1"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 26,
+							"stepName": "Pick Place Chassis Door",
+							"timeInfo": [
+								"0.7"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 27,
+							"stepName": "Rotate Tray",
+							"timeInfo": [
+								"1.5"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 28,
+							"stepName": "Unclip Front Bezel",
+							"timeInfo": [
+								"0.8"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 29,
+							"stepName": "Rotate Front Bezel",
+							"timeInfo": [
+								"1.3"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 30,
+							"stepName": "Pick Front Bezel",
+							"timeInfo": [
+								"0.2"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 31,
+							"stepName": "Pick Place Processor Label",
+							"timeInfo": [
+								"2.8"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 32,
+							"stepName": "Pick Place Front Bezel",
+							"timeInfo": [
+								"1.3"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 33,
+							"stepName": "Release Fan Duct",
+							"timeInfo": [
+								"1.5"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 34,
+							"stepName": "Pick Place Fan Duct",
+							"timeInfo": [
+								"1.1"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 35,
+							"stepName": "Rotate Tray",
+							"timeInfo": [
+								"1.4"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 36,
+							"stepName": "Pick Place Express Service Tag",
+							"timeInfo": [
+								"1.5"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 37,
+							"stepName": "Rotate Tray",
+							"timeInfo": [
+								"1.4"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 38,
+							"stepName": "Pick Place Service Tag",
+							"timeInfo": [
+								"1.8"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 39,
+							"stepName": "Pick Place Os Label",
+							"timeInfo": [
+								"2.5"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 40,
+							"stepName": "Rotate Tray",
+							"timeInfo": [
+								"1.4"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 41,
+							"stepName": "Pick Place Regulatory Label",
+							"timeInfo": [
+								"1.1"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 42,
+							"stepName": "Open Processor Lid",
+							"timeInfo": [
+								"2.8"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 43,
+							"stepName": "Pick Vaccum Pen",
+							"timeInfo": [
+								"0.5"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 44,
+							"stepName": "Pick Processor with Vaccum Pen",
+							"timeInfo": [
+								"0.8"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 45,
+							"stepName": "Pick Place Processor",
+							"timeInfo": [
+								"5.6"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 46,
+							"stepName": "Place Vaccum Pen",
+							"timeInfo": [
+								"1.3"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 47,
+							"stepName": "Close Processor Lid",
+							"timeInfo": [
+								"2.8"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 49,
+							"stepName": "Discard Processor Cap",
+							"timeInfo": [
+								"1.7"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 50,
+							"stepName": "Rotate Tray",
+							"timeInfo": [
+								"1.4"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 53,
+							"stepName": "Pick Thermal Pad",
+							"timeInfo": [
+								"1.7"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 54,
+							"stepName": "Discard Thermal Pad Sticker",
+							"timeInfo": [
+								"2.1"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 55,
+							"stepName": "Place Thermal Pad",
+							"timeInfo": [
+								"0.5"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 56,
+							"stepName": "Pick Place SSD",
+							"timeInfo": [
+								"2.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 57,
+							"stepName": "Pick Place 2230 SSD",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 58,
+							"stepName": "Pick Torque Wench",
+							"timeInfo": [
+								"0.9"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 59,
+							"stepName": "Attach Screw to Torque Wrench",
+							"timeInfo": [
+								"0.9"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 60,
+							"stepName": "Place Screw to SSD",
+							"timeInfo": [
+								"1.1"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 61,
+							"stepName": "Place Screw to 2230 SSD",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 62,
+							"stepName": "Pick Place WirelessCard",
+							"timeInfo": [
+								"2.2"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 63,
+							"stepName": "Pick Place Internal Antenna",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 64,
+							"stepName": "Route Internal Antenna",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 65,
+							"stepName": "Rotate Tray",
+							"timeInfo": [
+								"1.5"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 66,
+							"stepName": "Pick Place External Antenna",
+							"timeInfo": [
+								"2.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 67,
+							"stepName": "Pick Torque Wench",
+							"timeInfo": [
+								"1.8"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 68,
+							"stepName": "Attach Screw to Torque Wrench",
+							"timeInfo": [
+								"1.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 69,
+							"stepName": "Place Screw to ExternalAntenna",
+							"timeInfo": [
+								"1.2"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 70,
+							"stepName": "Pick Torque Wench",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 71,
+							"stepName": "Attach Screw to Torque Wrench",
+							"timeInfo": [
+								"1.4"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 72,
+							"stepName": "Place Screw to ExternalAntenna",
+							"timeInfo": [
+								"1.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 73,
+							"stepName": "Rotate Tray",
+							"timeInfo": [
+								"1.7"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 74,
+							"stepName": "Route External Antenna",
+							"timeInfo": [
+								"1.6"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 75,
+							"stepName": "Pick Place Wireless Card Cap",
+							"timeInfo": [
+								"2.3"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 76,
+							"stepName": "Pick Torque Wrench",
+							"timeInfo": [
+								"1.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 77,
+							"stepName": "Attach Screw to Torque Wrench",
+							"timeInfo": [
+								"0.9"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 78,
+							"stepName": "Place Screw to wireless card",
+							"timeInfo": [
+								"1.1"
+							],
+							"dropInfo": []
+						}
+					]
+				}
+			]
+		}
+	]
+}

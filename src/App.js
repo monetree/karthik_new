@@ -122,6 +122,8 @@ readFilesNew = (files) => {
     file_names.push(i["name"])
   }
 
+  
+
   this.setState({
     file_names: file_names
   })
@@ -129,15 +131,20 @@ readFilesNew = (files) => {
   let result = [];
   let count = 0;
   for (let i of files) {
+    let file_name = i["name"];
       count++;
       const reader = new FileReader();
       reader.onload = function (e) {
           try{
             const obj = eval(e.target.result)
             result.push(obj);
+            // console.log(obj[0]["Badge Number"])
+            // console.log(file_name, "1-")
           }catch(err) {
             const obj = JSON.parse(e.target.result)
             result.push(obj);
+            // console.log(obj["sessions"]["0"]["badgeNumber"])
+            // console.log(file_name, "2-")
           }
       };
       reader.readAsText(i);
@@ -190,11 +197,22 @@ showDataSource = () => {
     }
   }
 
-  let file_names = this.state.file_names;
+
+
+  // let file_name = this.state.file_names;
   for(let i=0;i<new_jsons.length; i++){
+
+
+      let badgeNumber = null
+      try{
+        badgeNumber = new_jsons[i]["sessions"][0]["badgeNumber"]
+      } catch(err) {
+        badgeNumber = new_jsons[i]["sessions"][0]["Badge Number"]
+      }
+      
     let a = document.createElement('a');
     a.href = "data:application/octet-stream,"+encodeURIComponent(JSON.stringify(new_jsons[i]));
-    a.download = "new_"+file_names[i]
+    a.download = "new_"+badgeNumber+".json"
     a.click();
   }
 

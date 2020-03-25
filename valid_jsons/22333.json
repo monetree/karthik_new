@@ -1,0 +1,1523 @@
+{
+	"sessions": [
+		{
+			"badgeNumber": 22333,
+			"name": "sreeragh",
+			"hit_drop":7,
+			"dateTime": "2020.02.26-21.10.03",
+			"model": "D10",
+			"mode":"Training",
+			"formFactor": "SFF",
+			"optionalCards": [
+				"35HDD",
+				"DVD",
+				"InternalAntenna",
+				"VGA"
+			],
+			"repetitions": [ 1, 0, 0 ],
+			"timing": [
+				{
+					"zoneName": "Zone1",
+					"zoneInfo": [
+						{
+							"stepId": 16,
+							"stepName": "Pick Place Tray",
+							"timeInfo": [
+								"3.4"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 17,
+							"stepName": "Rotate CPU",
+							"timeInfo": [
+								"1.7"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 18,
+							"stepName": "Pick TorqueWrench",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 19,
+							"stepName": "Activate TorqueWrench",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 20,
+							"stepName": "Rotate Screws",
+							"timeInfo": [
+								"1.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 21,
+							"stepName": "Rotate CPU",
+							"timeInfo": [
+								"1.6"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 22,
+							"stepName": "Slide ChassisDoor",
+							"timeInfo": [
+								"1.1"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 23,
+							"stepName": "Pick Place Chassis Door",
+							"timeInfo": [
+								"0.8"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 24,
+							"stepName": "Rotate Tray",
+							"timeInfo": [
+								"1.6"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 25,
+							"stepName": "Unclip Front Bezel",
+							"timeInfo": [
+								"0.8"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 26,
+							"stepName": "Rotate Front Bezel",
+							"timeInfo": [
+								"1.1"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 27,
+							"stepName": "Pick FrontBezel",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 28,
+							"stepName": "Pick Place Processor Label",
+							"timeInfo": [
+								"2.2"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 29,
+							"stepName": "Pick Place Front Bezel",
+							"timeInfo": [
+								"1.1"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 30,
+							"stepName": "Rotate Tray",
+							"timeInfo": [
+								"2.1"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 31,
+							"stepName": "Pick Place Express Service Tag",
+							"timeInfo": [
+								"1.7"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 32,
+							"stepName": "Rotate Tray",
+							"timeInfo": [
+								"1.5"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 33,
+							"stepName": "Pick Place ServiceTag",
+							"timeInfo": [
+								"1.4"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 34,
+							"stepName": "Rotate Tray",
+							"timeInfo": [
+								"1.5"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 35,
+							"stepName": "Pick Place Regulatory Label",
+							"timeInfo": [
+								"1.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 36,
+							"stepName": "Rotate Tray",
+							"timeInfo": [
+								"1.4"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 37,
+							"stepName": "Unroute Caddy Wires",
+							"timeInfo": [
+								"1.2"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 38,
+							"stepName": "Unroute Caddy Wires",
+							"timeInfo": [
+								"1.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 39,
+							"stepName": "Unroute Caddy Wires",
+							"timeInfo": [
+								"0.8"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 40,
+							"stepName": "Unroute Caddy Wires",
+							"timeInfo": [
+								"1.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 41,
+							"stepName": "Pick TorqueWrench",
+							"timeInfo": [
+								"1.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 42,
+							"stepName": "Activate TorqueWrench",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 43,
+							"stepName": "Release ODD screw",
+							"timeInfo": [
+								"0.6"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 44,
+							"stepName": "Caddy Pull",
+							"timeInfo": [
+								"1.5"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 45,
+							"stepName": "Pick Place Caddy",
+							"timeInfo": [
+								"0.6"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 46,
+							"stepName": "Pick Place Speaker",
+							"timeInfo": [
+								"2.7"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 47,
+							"stepName": "Route speaker wire",
+							"timeInfo": [
+								"0.8"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 48,
+							"stepName": "Rotate Tray",
+							"timeInfo": [
+								"1.6"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 49,
+							"stepName": "Pick Place Intuder",
+							"timeInfo": [
+								"1.4"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 50,
+							"stepName": "Route Intruder wire",
+							"timeInfo": [
+								"0.7"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 51,
+							"stepName": "Spawn Screw Driver",
+							"timeInfo": [
+								"2.4"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 52,
+							"stepName": "Break Cap",
+							"timeInfo": [
+								"1.4"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 53,
+							"stepName": "Throw Cap",
+							"timeInfo": [
+								"1.8"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 54,
+							"stepName": "Install HDMI",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 55,
+							"stepName": "Route wire",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 56,
+							"stepName": "Install VGA",
+							"timeInfo": [
+								"1.3"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 57,
+							"stepName": "Route wire",
+							"timeInfo": [
+								"0.7"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 58,
+							"stepName": "Install DP",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 59,
+							"stepName": "Route wire",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 60,
+							"stepName": "Rotate CPU",
+							"timeInfo": [
+								"1.6"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 61,
+							"stepName": "Pick TorqueWrench",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 62,
+							"stepName": "Attach Screw To TorqueWrench",
+							"timeInfo": [
+								"1.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 63,
+							"stepName": "Screw 1 Optional Card Slot 1",
+							"timeInfo": [
+								"2.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 64,
+							"stepName": "Attach Screw To TorqueWrench",
+							"timeInfo": [
+								"1.2"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 65,
+							"stepName": "Screw 2 Optional Card Slot 1",
+							"timeInfo": [
+								"1.2"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 66,
+							"stepName": "Rotate CPU",
+							"timeInfo": [
+								"1.6"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 67,
+							"stepName": "Spawn Screw Driver",
+							"timeInfo": [
+								"0.7"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 68,
+							"stepName": "Break Cap",
+							"timeInfo": [
+								"1.5"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 69,
+							"stepName": "Throw Cap",
+							"timeInfo": [
+								"1.7"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 70,
+							"stepName": "Install Serial",
+							"timeInfo": [
+								"2.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 71,
+							"stepName": "Route wire",
+							"timeInfo": [
+								"0.8"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 72,
+							"stepName": "Rotate CPU",
+							"timeInfo": [
+								"1.6"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 73,
+							"stepName": "Pick TorqueWrench",
+							"timeInfo": [
+								"0.1"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 74,
+							"stepName": "Attach Screw To TorqueWrench",
+							"timeInfo": [
+								"1.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 75,
+							"stepName": "Screw 1 Optional Card Slot 2",
+							"timeInfo": [
+								"1.1"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 76,
+							"stepName": "Attach Screw To TorqueWrench",
+							"timeInfo": [
+								"1.1"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 77,
+							"stepName": "Screw 2 Optional Card Slot 2",
+							"timeInfo": [
+								"0.9"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 78,
+							"stepName": "Rotate CPU",
+							"timeInfo": [
+								"1.6"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 79,
+							"stepName": "Open Processor Lid",
+							"timeInfo": [
+								"2.7"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 80,
+							"stepName": "Pick Vaccum Pen",
+							"timeInfo": [
+								"0.3"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 81,
+							"stepName": "Pick Processor with Vaccum Pen",
+							"timeInfo": [
+								"1.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 82,
+							"stepName": "Pick Place Processor",
+							"timeInfo": [
+								"6.2"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 83,
+							"stepName": "Place Vaccum Pen",
+							"timeInfo": [
+								"1.4"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 84,
+							"stepName": "Close Processor Lid",
+							"timeInfo": [
+								"2.8"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 86,
+							"stepName": "Discard Processor Cap",
+							"timeInfo": [
+								"2.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 89,
+							"stepName": "Pick Heat Sink",
+							"timeInfo": [
+								"1.1"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 90,
+							"stepName": "Discard Heat Sink Cap",
+							"timeInfo": [
+								"2.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 91,
+							"stepName": "Pick Place HeatSink",
+							"timeInfo": [
+								"0.2"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 92,
+							"stepName": "Route heat sink wire",
+							"timeInfo": [
+								"1.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 93,
+							"stepName": "Pick Torque Wrench",
+							"timeInfo": [
+								"2.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 94,
+							"stepName": "Activate TorqueWrench",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 95,
+							"stepName": "Tighten Heat Sink",
+							"timeInfo": [
+								"2.8"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 96,
+							"stepName": "Rotate Tray",
+							"timeInfo": [
+								"1.7"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 97,
+							"stepName": "Pick RAM",
+							"timeInfo": [
+								"1.4"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 98,
+							"stepName": "Place RAM",
+							"timeInfo": [
+								"3.3"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 101,
+							"stepName": "Pick Thermal Pad",
+							"timeInfo": [
+								"2.4"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 102,
+							"stepName": "Discard Thermal Pad Sticker",
+							"timeInfo": [
+								"2.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 103,
+							"stepName": "Place Thermal Pad",
+							"timeInfo": [
+								"0.3"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 104,
+							"stepName": "Pick Place SSD",
+							"timeInfo": [
+								"1.9"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 105,
+							"stepName": "Pick Place 2230 SSD",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 106,
+							"stepName": "Pick Torque Wench",
+							"timeInfo": [
+								"1.4"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 107,
+							"stepName": "Attach Screw to Torque Wrench",
+							"timeInfo": [
+								"0.9"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 108,
+							"stepName": "Place Screw to SSD",
+							"timeInfo": [
+								"1.3"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 109,
+							"stepName": "Place Screw to 2230 SSD",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 110,
+							"stepName": "Pick Place WirelessCard",
+							"timeInfo": [
+								"2.2"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 111,
+							"stepName": "Rotate Tray",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 112,
+							"stepName": "Spawn Screw Driver",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 113,
+							"stepName": "Break Antenna Break Cap 1",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 114,
+							"stepName": "Discard Break Cap 1",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 115,
+							"stepName": "Spawn Screw Driver",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 116,
+							"stepName": "Break Antenna Break Cap 2",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 117,
+							"stepName": "Discard Break Cap 2",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 118,
+							"stepName": "Pick Place External Antenna",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 121,
+							"stepName": "Pick Place Nut",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 122,
+							"stepName": "Pick TBar",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 123,
+							"stepName": "Tighten Nut",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 124,
+							"stepName": "Pick Place Nut",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 125,
+							"stepName": "Pick TBar",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 126,
+							"stepName": "Tighten Nut",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 127,
+							"stepName": "Route Wire 1 EA",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 128,
+							"stepName": "Pick Place Internal Antenna",
+							"timeInfo": [
+								"2.3"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 129,
+							"stepName": "Route Wire 1 IA",
+							"timeInfo": [
+								"1.8"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 130,
+							"stepName": "Pick Place Wireless Card Cap",
+							"timeInfo": [
+								"2.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 131,
+							"stepName": "Pick Torque Wrench",
+							"timeInfo": [
+								"1.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 132,
+							"stepName": "Attach Screw to Torque Wrench",
+							"timeInfo": [
+								"0.8"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 133,
+							"stepName": "Place Screw to wireless card",
+							"timeInfo": [
+								"1.2"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 134,
+							"stepName": "Rotate Tray",
+							"timeInfo": [
+								"1.6"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 135,
+							"stepName": "Open PCI Gate",
+							"timeInfo": [
+								"2.4"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 136,
+							"stepName": "Discard PCI Filler",
+							"timeInfo": [
+								"3.5"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 137,
+							"stepName": "Pick Place PCI Serial Card",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 138,
+							"stepName": "Pick Place GPU",
+							"timeInfo": [
+								"1.4"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 139,
+							"stepName": "Spawn Screw Driver",
+							"timeInfo": [
+								"2.3"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 140,
+							"stepName": "Break PCI Filler",
+							"timeInfo": [
+								"1.1"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 141,
+							"stepName": "Discard PCI Filler",
+							"timeInfo": [
+								"1.6"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 142,
+							"stepName": "Pick Place Parallel Card",
+							"timeInfo": [
+								"1.5"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 143,
+							"stepName": "Close PCI Gate",
+							"timeInfo": [
+								"1.4"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 144,
+							"stepName": "Rotate Tray",
+							"timeInfo": [
+								"1.5"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 145,
+							"stepName": "Pick Front Bezel",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 146,
+							"stepName": "Pick Place DVD Filler",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 147,
+							"stepName": "Place Front Bezel",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 148,
+							"stepName": "Pick Caddy",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 149,
+							"stepName": "Pick Place EMI Shield",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 150,
+							"stepName": "Pick DVD",
+							"timeInfo": [
+								"1.2"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 151,
+							"stepName": "Pick Place DVD Filler",
+							"timeInfo": [
+								"1.2"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 152,
+							"stepName": "Pick Caddy",
+							"timeInfo": [
+								"0.9"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 153,
+							"stepName": "Pick Place DVD",
+							"timeInfo": [
+								"0.4"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 154,
+							"stepName": "Slide DVD",
+							"timeInfo": [
+								"1.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 155,
+							"stepName": "Pick Place Caddy",
+							"timeInfo": [
+								"4.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 156,
+							"stepName": "Pick TorqueWrench",
+							"timeInfo": [
+								"4.7"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 157,
+							"stepName": "Activate TorqueWrench",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 158,
+							"stepName": "Release 3.5HDD Screws",
+							"timeInfo": [
+								"2.8"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 159,
+							"stepName": "Release 2.5HDD Screws",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 160,
+							"stepName": "Pick 3.5HDDBracket",
+							"timeInfo": [
+								"0.5"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 161,
+							"stepName": "Pick Place 3.5HDD",
+							"timeInfo": [
+								"1.4"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 162,
+							"stepName": "Slide 3.5HDD",
+							"timeInfo": [
+								"1.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 163,
+							"stepName": "Place 3.5Caddy",
+							"timeInfo": [
+								"0.3"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 164,
+							"stepName": "Pick TorqueWrench",
+							"timeInfo": [
+								"0.9"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 165,
+							"stepName": "Attach Screw To TorqueWrench",
+							"timeInfo": [
+								"1.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 166,
+							"stepName": "Screw 1 3.5HDD",
+							"timeInfo": [
+								"1.1"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 167,
+							"stepName": "Attach Screw To TorqueWrench",
+							"timeInfo": [
+								"0.5"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 168,
+							"stepName": "Screw 2 3.5HDD",
+							"timeInfo": [
+								"0.5"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 169,
+							"stepName": "Pick Place 3.5Caddy",
+							"timeInfo": [
+								"1.3"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 170,
+							"stepName": "Slide 3.5Caddy",
+							"timeInfo": [
+								"1.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 171,
+							"stepName": "Pick TorqueWrench",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 172,
+							"stepName": "Attach Screw To TorqueWrench",
+							"timeInfo": [
+								"1.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 173,
+							"stepName": "Screw 1 Caddy",
+							"timeInfo": [
+								"1.7"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 174,
+							"stepName": "Attach Screw To TorqueWrench",
+							"timeInfo": [
+								"1.8"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 175,
+							"stepName": "Screw 2 Caddy",
+							"timeInfo": [
+								"1.2"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 176,
+							"stepName": "Pick 2.5 Caddy",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 177,
+							"stepName": "Pick Place 2.5 HDD",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 178,
+							"stepName": "Place Caddy",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 179,
+							"stepName": "Pick TorqueWrench",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 180,
+							"stepName": "Attach Screw To TorqueWrench",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 181,
+							"stepName": "Screw 1 Caddy",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 182,
+							"stepName": "Attach Screw To TorqueWrench",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 183,
+							"stepName": "Screw 2 Caddy",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 184,
+							"stepName": "Pick Place Caddy",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 185,
+							"stepName": "Pick TorqueWrench",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 186,
+							"stepName": "Attach Screw To TorqueWrench",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 187,
+							"stepName": "Screw 3 Caddy",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 188,
+							"stepName": "Attach Screw To TorqueWrench",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 189,
+							"stepName": "Screw 4 Caddy",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 190,
+							"stepName": "Pick Place 2.5 Caddy",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 191,
+							"stepName": "Slide 2.5 Caddy",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 192,
+							"stepName": "Pick TorqueWrench",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 193,
+							"stepName": "Attach Screw To TorqueWrench",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 194,
+							"stepName": "Screw 2.5 Caddy",
+							"timeInfo": [
+								"0.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 195,
+							"stepName": "Pick Place Caddy",
+							"timeInfo": [
+								"1.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 196,
+							"stepName": "Slide Caddy",
+							"timeInfo": [
+								"1.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 197,
+							"stepName": "Pick TorqueWrench",
+							"timeInfo": [
+								"0.5"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 198,
+							"stepName": "Attach Screw To TorqueWrench",
+							"timeInfo": [
+								"1.3"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 199,
+							"stepName": "Screw Caddy",
+							"timeInfo": [
+								"0.9"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 200,
+							"stepName": "Route HDD Power Wire",
+							"timeInfo": [
+								"1.1"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 201,
+							"stepName": "Route HDD SATA Wire",
+							"timeInfo": [
+								"2.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 202,
+							"stepName": "Route DVD Power Wire",
+							"timeInfo": [
+								"1.2"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 203,
+							"stepName": "Route DVD SATA Wire",
+							"timeInfo": [
+								"1.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 204,
+							"stepName": "Pick Place Bezel",
+							"timeInfo": [
+								"2.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 205,
+							"stepName": "Rotate Bezel",
+							"timeInfo": [
+								"1.0"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 206,
+							"stepName": "Rotate Tray",
+							"timeInfo": [
+								"1.4"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 207,
+							"stepName": "Pick Place OS Label",
+							"timeInfo": [
+								"3.2"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 208,
+							"stepName": "Pick Place CPU Cover",
+							"timeInfo": [
+								"1.5"
+							],
+							"dropInfo": []
+						},
+						{
+							"stepId": 209,
+							"stepName": "Slide Cover",
+							"timeInfo": [
+								"1.0"
+							],
+							"dropInfo": []
+						}
+					]
+				}
+			]
+		}
+	]
+}
