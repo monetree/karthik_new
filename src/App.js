@@ -209,15 +209,47 @@ showDataSource = () => {
       } catch(err) {
         badgeNumber = new_jsons[i]["sessions"][0]["Badge Number"]
       }
-      
-    let a = document.createElement('a');
-    a.href = "data:application/octet-stream,"+encodeURIComponent(JSON.stringify(new_jsons[i]));
-    a.download = "new_"+badgeNumber+".json"
-    a.click();
+    
+      new_jsons[i]["sessions"][0]["timing"] = this.addZoneCounter(new_jsons[i]["sessions"][0]["timing"])
+
+      let a = document.createElement('a');
+      a.href = "data:application/octet-stream,"+encodeURIComponent(JSON.stringify(new_jsons[i]));
+      a.download = "new_"+badgeNumber+".json"
+      a.click();
   }
 
 
 };
+
+
+addZoneCounter = (timing) => {
+  let counter = 1
+  for(let i of timing){
+    if(!i["zoneName"]){
+      i["zoneName"] = "Zone" + counter.toString()
+      counter++;
+    }
+
+    i["zoneInfo"] = this.addStepName(i["zoneInfo"])
+  }
+  return timing
+}
+
+addStepName = (zoneinfo) => {
+  let counter = 1
+  for(let i of zoneinfo){
+    i["timeInfo"] = this.convertTimeInfoArrayToString(i["timeInfo"])
+    i["stepName"] = "S"+counter.toString()
+    counter++;
+  }
+  return zoneinfo
+}
+
+
+convertTimeInfoArrayToString = (timeinfo) => {
+  timeinfo =  timeinfo.map(String)
+  return timeinfo
+}
 
 
 
